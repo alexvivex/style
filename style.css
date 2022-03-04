@@ -1,0 +1,105 @@
+
+.formulario
+{
+    position: relative;
+    border: 1px solid #ccc;
+    max-width: 100%;
+}
+
+form.formulario label 
+{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+form.formulario .form-input 
+{
+    padding: 1em;
+}
+form.formulario .form-input input[type='text'],
+form.formulario .form-input select[type='text'] 
+{
+    display: block;
+    width: 100%;
+}
+
+input[type='submit'] 
+{
+
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #2f5aae;
+    color: white;
+    border-style: solid;
+    border-color: currentColor;
+    fill: currentColor;
+    border-width: var(--primaryBtnBorderWidth,0);
+    border-radius: var(--primaryBtnBorderRadius,3px);
+    padding: var(--primaryBtnPadding,13px 15px);
+    font-weight: var(--btnFontWeight,700);
+    font-size: var(--btnFs,var(--bodyFontSize));
+    line-height: var(--btnLineHeight,1.6);
+    letter-spacing: var(--btnLetterSpacing,var(--bodyLetterSpacing));
+    text-transform: var(--btnTextTransform,none);
+}
+p.exito 
+{
+    font-size: 1.5em;
+    padding: 1em;
+    border: 2px solid green;
+    background: lightgreen;
+}
+p.error 
+{
+    font-size: 1.5em;
+    padding: 1em;
+    border: 2px solid red;
+    background: #ff8787;
+}
+
+  .tabledit-input
+  {
+     width: 50px;
+  }
+
+  .myTable{
+     font-family: 'helvetica neue',helvetica,arial,'lucida grande',sans-serif;
+     border-collapse: collapse;
+     width: 500px;
+  }
+  .myTable td{
+     border: solid 3px #C9C9C9;
+     padding: 10px;
+     font-size: 12px;
+     text-align: center;
+  }
+  .myTable tr{
+     background-color: #C45C9B;
+    /* border: solid 3px #C9C9C9;*/
+     color: #fff;
+  }
+  .myTable tr:hover{
+     background-color: #181818;
+     color: #fff;
+  }
+  .myTable th{
+     border: solid 1px #BFBFBF;
+     padding: 10px;
+     color: #fff;
+     background-color: #181818;
+     text-align: center;
+     font-size: 12px;
+  }
+
+  #chart1{
+    max-width: 500px;
+  }
+
+  img
+  {
+    background-color: #fff;
+    padding: 5px;
+  }
+
+
+</style>
